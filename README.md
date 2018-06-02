@@ -24,6 +24,12 @@ node index.js
 sqlite3 database.sqlite
 ```
 
+* Try cron job to send email n interval
+    - Make sure your gmail account allow to less secure apps
+    - Rename .env.sample into .env
+    - Fill environment value in .env with your email credentials
+    - Uncomment cron job send email
+
 
 
 ### Cron short description

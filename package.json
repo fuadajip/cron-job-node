@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/fuadajip/cron-job-node#readme",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "fs": "^0.0.1-security",
     "node-cron": "^1.2.1",
+    "nodemailer": "^4.6.5",
     "shelljs": "^0.8.2",
     "sqlite3": "^4.0.0"
   }
