@@ -42,22 +42,22 @@ let transporter = nodemailer.createTransport({
 // });
 
 // sending emails at periodic intervals
-cron.schedule("* * * * Sunday", function() {
-  console.log("---------------------");
-  console.log("Running Cron Job");
-  let mailOptions = {
-    from: process.env.EMAIL,
-    to: "user@mail.com",
-    subject: `Not a GDPR update ;)`,
-    text: `Hi there, this email was automatically sent by us`
-  };
-  transporter.sendMail(mailOptions, function(error, info) {
-    if (error) {
-      throw error;
-    } else {
-      console.log("Email successfully sent!");
-    }
-  });
-});
+// cron.schedule("* * * * Sunday", function() {
+//   console.log("---------------------");
+//   console.log("Running Cron Job");
+//   let mailOptions = {
+//     from: process.env.EMAIL,
+//     to: "user@mail.com",
+//     subject: `Not a GDPR update ;)`,
+//     text: `Hi there, this email was automatically sent by us`
+//   };
+//   transporter.sendMail(mailOptions, function(error, info) {
+//     if (error) {
+//       throw error;
+//     } else {
+//       console.log("Email successfully sent!");
+//     }
+//   });
+// });
 
 app.listen(3218);
