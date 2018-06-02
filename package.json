@@ -20,6 +20,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "fs": "^0.0.1-security",
-    "node-cron": "^1.2.1"
+    "node-cron": "^1.2.1",
+    "shelljs": "^0.8.2",
+    "sqlite3": "^4.0.0"
   }
 }

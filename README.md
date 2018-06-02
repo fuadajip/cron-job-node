@@ -12,11 +12,19 @@ Install depedencies form package.json
 ```
 
 ## Run
-Uncomment each tash to try each cron job individually
+* Uncomment each tash to try each cron job individually
 
 ```bash
 node index.js
 ```
+
+* Try cron job to backup database
+    - Create sqlite database
+```bash
+sqlite3 database.sqlite
+```
+
+
 
 ### Cron short description
 ```
